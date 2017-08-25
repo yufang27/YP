@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="bower_components/raty/lib/jquery.raty.css">
+    <!-- todo   
+                使用以下CSS套件
+                font-awesome.css
+                bootstrap.css
+                animate.css (包含在wow裡面)
+                jquery.raty.css
+    -->
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/wow/dist/wow.min.js"></script>
+    <script src="bower_components/raty/lib/jquery.raty.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
+    <!-- todo
+                使用以下JS套件
+                jquery.js
+                wow.js
+                jqeury.raty.js
+                bootstrap.js
+                jquery.easing.js
+    -->
+
+    <script src="js/main.js"></script>
+    <!-- 使用google map api -->
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+    <title>Website Demo</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- 導覽列左手邊區塊(logo) -->
+            <div class="navbar-header">
+                <!-- button.navbar-toggle.collapsed 手機版預設收起導覽列 -->
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navList"> <span class="icon-bar"></span>
+                <!-- span.icon-bar = 自動繪製Menu Bar -->
+                
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img src="/images/Logo-white.png" /></a>
+            </div>
+            <div id="navList" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- (li>a[href=Section])*5 -->
+
+                    <li>
+                        <a href="#introduction">introduction</a>
+                    </li>
+                    <li>
+                        <a href="#problems">problems</a>
+                    </li>
+                    <li>
+                        <a href="#Articles">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#portfolioSection">Subscribe</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <header>
+        <div class="header">
+            <div class="header-content">
+                <h1>Financial Advisor for the Youth</h1>
+                <p>We understand you more than you do</p>
+            </div>
+        </div>
+    </header>
+
+    <section id=introduction>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h2>Depositing is Not Everything</h2>
+                    <p>70% of the youth consider current deposit a major way of financial management. </p>
+                    <p> However, the youth have overseen the importance whereas overestimated the difficuties of a financial planning.</p>
+                    <p>Youth people might ask "How do I start?", "How do I do the planning?" </p>
+                    <p>This is why we are here. We are both your loyal friend and professional consultant that aim to move the obstacles away on your financial journey. </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id=problems>
+        <div class="container">
+            <h2>Major Problems</h2>
+            <div class="row">
+                <div class="problem1 col-sm-4">
+                    <div class="problem-icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+                    <div class="problem-text">
+                        <h5>No Money</h5>
+                    </div>
+                </div>
+                <div class="problem2 col-sm-4">
+                    <div class="problem-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+                    <div class="problem-text">
+                        <h5>No Time</h5>
+                    </div>
+
+                </div>
+                <div class="problem3 col-sm-4">
+                    <div class="problem-icon">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+                    <div class="problem-text">
+                        <h5>No Knowledge</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="solution-text col-sm-8 col-sm-offset-2">
+                <p>The three major problems above are the common issues the youth encoutered when dealing financial situations. Therefore, we offered professional financial advices and products to help you start with the very first step of an investment.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="Articles" class="carousel">
+        <h1>Articles Must Read</h1>
+        <div id="slide1" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <!-- 輪播內容 -->
+            <div class="carousel-inner">
+                <!-- 每一頁是一個.item -->
+                <div class="item active">
+                    <h2>Kim Jong Un Shown Ordering More Warheads After Tillerson’s Praise for ‘Restraint’</h2>
+                    <h4>North Korea’s leader appeared in state media touring a production facility and ordering more warheads and rocket engines</h4>
+                </div>
+                <div class="item">
+                    <h2>Kim Jong Un Shown Ordering More Warheads After Tillerson’s Praise for ‘Restraint’</h2>
+                    <h4>North Korea’s leader appeared in state media touring a production facility and ordering more warheads and rocket engines</h4>
+                </div>
+                <div class="item">
+                    <h2>Kim Jong Un Shown Ordering More Warheads After Tillerson’s Praise for ‘Restraint’</h2>
+                    <h4>North Korea’s leader appeared in state media touring a production facility and ordering more warheads and rocket engines</h4>
+                </div>
+                <div class="item">
+                    <h2>Kim Jong Un Shown Ordering More Warheads After Tillerson’s Praise for ‘Restraint’</h2>
+                    <h4>North Korea’s leader appeared in state media touring a production facility and ordering more warheads and rocket engines</h4>
+                </div>
+            </div>
+            <!-- 上一頁 下一頁 -->
+            <div class="control-btn">
+                <a href="#slide1" class="left carousel-control" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span>
+                </a>
+                <a href="#slide1" class="right carousel-control" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span>
+                </a>
+            </div>
+            <!-- 指定輪播到第幾頁的按鈕 -->
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slide1" data-slide-to="0"></li>
+                <li data-target="#slide1" data-slide-to="1"></li>
+                <li data-target="#slide1" data-slide-to="2"></li>
+                <li data-target="#slide1" data-slide-to="3"></li>
+            </ol>
+        </div>
+
+
+    </section>
+
+
+
+</body>
+
+<footer id="Subscribe">
+    <div>
+        <p> If you have difficuties with one of the issues, please click the bottom below to subscirbe our latest news.</p>
+        <button type="button" class="btn">Subscribe</button>
+    </div>
+
+</footer>
+
+</html>

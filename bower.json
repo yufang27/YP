@@ -1,0 +1,23 @@
+{
+  "name": "Young Potential",
+  "authors": [
+    "Yufang"
+  ],
+  "description": "Demo website",
+  "main": "",
+  "keywords": [
+    "YP"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
