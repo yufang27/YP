@@ -13,13 +13,6 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
     <link rel="stylesheet" href="bower_components/raty/lib/jquery.raty.css">
-    <!-- todo   
-                使用以下CSS套件
-                font-awesome.css
-                bootstrap.css
-                animate.css (包含在wow裡面)
-                jquery.raty.css
-    -->
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -27,29 +20,15 @@
     <script src="bower_components/raty/lib/jquery.raty.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
-    <!-- todo
-                使用以下JS套件
-                jquery.js
-                wow.js
-                jqeury.raty.js
-                bootstrap.js
-                jquery.easing.js
-    -->
-
     <script src="js/main.js"></script>
-    <!-- 使用google map api -->
-    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
     <title>Website Demo</title>
 </head>
 
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <!-- 導覽列左手邊區塊(logo) -->
             <div class="navbar-header">
-                <!-- button.navbar-toggle.collapsed 手機版預設收起導覽列 -->
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navList"> <span class="icon-bar"></span>
-                <!-- span.icon-bar = 自動繪製Menu Bar -->
                 
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -58,7 +37,6 @@
             </div>
             <div id="navList" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- (li>a[href=Section])*5 -->
 
                     <li>
                         <a href="#introduction">introduction</a>
@@ -70,7 +48,7 @@
                         <a href="#Articles">Articles</a>
                     </li>
                     <li>
-                        <a href="#portfolioSection">Subscribe</a>
+                        <a href="#subscribe">Subscribe</a>
                     </li>
 
                 </ul>
@@ -141,9 +119,9 @@
     <section id="Articles" class="carousel">
         <h1>Articles Must Read</h1>
         <div id="slide1" class="carousel slide" data-ride="carousel" data-interval="5000">
-            <!-- 輪播內容 -->
+
             <div class="carousel-inner">
-                <!-- 每一頁是一個.item -->
+
                 <div class="item active">
                     <h2>Kim Jong Un Shown Ordering More Warheads After Tillerson’s Praise for ‘Restraint’</h2>
                     <h4>North Korea’s leader appeared in state media touring a production facility and ordering more warheads and rocket engines</h4>
@@ -161,7 +139,7 @@
                     <h4>North Korea’s leader appeared in state media touring a production facility and ordering more warheads and rocket engines</h4>
                 </div>
             </div>
-            <!-- 上一頁 下一頁 -->
+
             <div class="control-btn">
                 <a href="#slide1" class="left carousel-control" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span>
@@ -170,7 +148,7 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span>
                 </a>
             </div>
-            <!-- 指定輪播到第幾頁的按鈕 -->
+
             <ol class="carousel-indicators">
                 <li class="active" data-target="#slide1" data-slide-to="0"></li>
                 <li data-target="#slide1" data-slide-to="1"></li>
@@ -186,7 +164,7 @@
 
 </body>
 
-<footer id="Subscribe">
+<footer id="subscribe">
     <div>
         <p> If you have difficuties with one of the issues, please click the bottom below to subscirbe our latest news.</p>
         <button type="button" class="btn">Subscribe</button>
